@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FrontTest1">
+        <activity android:name=".Read_my_reviews"></activity>
+        <activity android:name=".Create_Event" />
+        <activity android:name=".PersonalProfile_Organiser" />
+        <activity android:name=".PersonalProfile_User"/>
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login"></activity>
