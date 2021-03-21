@@ -9,7 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.PersonalProfile.AppBarOverlay" />
+        android:theme="@style/Theme.PersonalProfile.AppBarOverlay"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -38,8 +38,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.941"
-            app:srcCompat="@drawable/ic_action_name"
-            tools:ignore="VectorDrawableCompat" />
+            app:srcCompat="@drawable/ic_action_name" />
 
         <ImageButton
             android:id="@+id/imageButton17"
@@ -51,8 +50,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.941"
-            app:srcCompat="@drawable/person"
-            tools:ignore="VectorDrawableCompat" />
+            app:srcCompat="@drawable/person" />
 
         <ImageButton
             android:id="@+id/imageButton18"
@@ -73,7 +71,7 @@
             android:layout_marginTop="612dp"
             app:layout_constraintBottom_toBottomOf="@+id/imageButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.078"
+            app:layout_constraintHorizontal_bias="0.05"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
